@@ -2,6 +2,9 @@
 
 1. Open Tapswap Bot And Turn Off Internet ( Wifi - Cellular )
 
+````
+https://t.me/tapswap_mirror_2_bot?start=r_267941703
+````
 2. Click on 3 Dots On Top (Menu) And Click On Reload .
 
 3. After Reload ,Page Shows Not Loaded Error And Link Under It :) Copy All Text ( Include Web Page Not Available )
