@@ -1,15 +1,15 @@
 // ==UserScript==
 // @name         Tapswap
 // @namespace    http://shahanpanel.link
-// @version      2.9
+// @version      2.10
 // @description  Tapswap Auto Task :)
 // @author       HamedAp & lcarusD
 // @match        https://app.tapswap.club/*
 // @icon         https://www.softportal.com/en/scr/1089/icons/icon_src.png
 // @grant        GM_webRequest
-// @downloadURL  https://raw.githubusercontent.com/HamedAp/Tapswap-Cinema/main/tampermonkey.js
-// @updateURL    https://raw.githubusercontent.com/HamedAp/Tapswap-Cinema/main/tampermonkey.js
-// @homepage     https://github.com/HamedAp/Tapswap-Cinema/
+// @downloadURL  https://raw.githubusercontent.com/Azraelir/Tapswap-Cinema/main/tampermonkey.js
+// @updateURL    https://raw.githubusercontent.com/Azraelir/Tapswap-Cinema/main/tampermonkey.js
+// @homepage     https://github.com/Azraelir/Tapswap-Cinema/
 // @require      https://code.jquery.com/jquery-3.7.1.min.js
 // ==/UserScript==
 (function () {
@@ -162,7 +162,9 @@ function done() {
             backbutton.click();
         }
        if (wronganswer && submitt) {
+         setTimeout(function () {
             backbutton.click();
+            }, 5000);
         }
         if (perror && check) {
                check.click();
